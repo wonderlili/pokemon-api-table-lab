@@ -2,7 +2,7 @@
 
 ## What are APIs?
 
-A web Application Programming Interface (API) is a fancy term for data that lives on the Internet. The data is housed at an endpoint (represented by a url), which you can visit in your browser to view the data. Web APIs are often in JSON (JavaScript Object Notation) format, meaning that they look like giant Ruby hashes! This hash-like structure makes it easy for developers like you and me to retrieve and manipulate the API data to fit the needs of the program or application we're writing.
+A web Application Programming Interface (API) is a fancy term for data that lives on the Internet. The data is housed at an endpoint -- represented by a url -- that you can visit in your browser to view the data. Web APIs are often in JSON (JavaScript Object Notation) format, meaning that they look like giant Ruby hashes! This hash-like structure makes it easy for developers like you and me to retrieve and manipulate the API data to fit the needs of the program or application we're writing.
 
 ## Getting the Data
 
