@@ -86,6 +86,8 @@ Create a method `#get_base_stats` that collects all of Charizard's reported stat
 
 Create a method `#create_stats_table` that prints out all of Charizard's statistics. Use the methods you've previously created (`#get_stats_names` and `#get_base_stats`) to populate the table structure according to terminal-table documentation. The final table should look something like this:
 
+![ScreenShot](https://raw.github.com/alemosie/pokemon-api-table-lab/charizard_stats_table_example.png)
+
 Be sure to check out the [terminal-table documentation](https://github.com/tj/terminal-table) for instructions on how to create and prettify tables!
 
 #### 4. Get information about Charizard's abilities
@@ -96,14 +98,7 @@ Create a method `#get_ability_details` that collects all of the information abou
 
 Create a method `#create_abilities_table` that prints out all of Charizard's abilities. Use the method you've previously created (#get_ability_details) to populate the table structure according to terminal-table documentation. The headers for the table should correspond to the values of your two-dimensional details array: `["name", "slot", "hidden"]`. The final table should look like this:
 
-+-------------------+-------------+--------------+
-|             CHARIZARD'S ABILITIES              |
-+-------------------+-------------+--------------+
-| name              | slot        | hidden       |
-+-------------------+-------------+--------------+
-| solar-power       | 3           | true         |
-| blaze             | 1           | false        |
-+-------------------+-------------+--------------+
+![ScreenShot](https://raw.github.com/alemosie/pokemon-api-table-lab/charizard_abilities_table_example.png)
 
 ## Challenges
 
