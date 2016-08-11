@@ -86,15 +86,6 @@ Create a method `#get_base_stats` that collects all of Charizard's reported stat
 
 Create a method `#create_stats_table` that prints out all of Charizard's statistics. Use the methods you've previously created (`#get_stats_names` and `#get_base_stats`) to populate the table structure according to terminal-table documentation. The final table should look something like this:
 
-
-+----------------+---------------+---------------+
-|               CHARIZARD'S STATS                |
-+----------------+---------------+---------------+
-| defense        | attack        | hp            |
-+----------------+---------------+---------------+
-| 78             | 84            | 78            |
-+----------------+---------------+---------------+
-
 Be sure to check out the [terminal-table documentation](https://github.com/tj/terminal-table) for instructions on how to create and prettify tables!
 
 #### 4. Get information about Charizard's abilities
