@@ -63,7 +63,7 @@ charizard = {
 
 ### Set-up
 
-You're going to create two tables from Charizard's information, using the terminal-table gem (https://rubygems.org/gems/terminal-table/versions/1.6.0). The first table should contain the character's statistics. The second table should contain the character's stats. Be sure to run the following command before running charizard_tables.rb:
+You're going to create two tables from Charizard's information using the terminal-table gem (https://rubygems.org/gems/terminal-table/versions/1.6.0). The first table should contain the character's statistics. The second table should contain the character's stats. Be sure to run the following command before running charizard_tables.rb:
 
 > gem install terminal-table
 
