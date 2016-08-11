@@ -1,11 +1,14 @@
 # Pokémon API Lab
 
+## What are APIs?
+
 A web Application Programming Interface (API) is a fancy term for data that lives on the Internet. The data is housed at an endpoint (represented by a url), which you can visit in your browser to view the data. Web APIs are often in JSON (JavaScript Object Notation) format, meaning that they look like giant Ruby hashes! This hash-like structure makes it easy for developers like you and me to retrieve and manipulate the API data to fit the needs of the program or application we're writing.
 
 ## Getting the Data
 
 For this lab, you're going to be using the Pokéapi (http://pokeapi.co/) to manipulate some of beloved Charizard's details. Visit http://pokeapi.co/api/v2/pokemon/6/ to get to the information that the API has on Charizard -- the response is HUGE! For the purposes of this lab, let's just work with a much more manageable excerpt of the response. Copy and paste the following hash into your charizard_tables.rb file:
 
+```ruby
 charizard = {
 	name: "charizard",
 	weight: 905,
@@ -54,6 +57,7 @@ charizard = {
 		}
 	]
 }
+```
 
 ## Writing Methods
 
@@ -65,7 +69,7 @@ You're going to create two tables from Charizard's information, using the termin
 
 Follow the instructions below to make some magic!
 
-*Pro-tip: check out the "pry" gem to debug your program! Check out [this great blog post](http://www.alanmacdougall.com/blog/2012/06/08/interactive-debugging-with-pry/) or the [official documentation](http://pryrepl.org/) for more info.*
+*Pro-tip: check out the "pry" gem to debug your program! Check out [this great blog post](http://www.alanmacdougall.com/blog/2012/06/08/interactive-debugging-with-pry/) or the [official pry documentation](http://pryrepl.org/) for more info.*
 
 
 ### Methods
@@ -81,6 +85,7 @@ Create a method `#get_base_stats` that collects all of Charizard's reported stat
 #### 3. Create table with the information about Charizard's stats
 
 Create a method `#create_stats_table` that prints out all of Charizard's statistics. Use the methods you've previously created (`#get_stats_names` and `#get_base_stats`) to populate the table structure according to terminal-table documentation. The final table should look something like this:
+
 
 +----------------+---------------+---------------+
 |               CHARIZARD'S STATS                |
