@@ -6,7 +6,7 @@ A web Application Programming Interface (API) is a fancy term for data that live
 
 ## Getting the Data
 
-For this lab, you're going to be using the Pokéapi (http://pokeapi.co/) to manipulate some of beloved Charizard's details. Visit http://pokeapi.co/api/v2/pokemon/6/ to get to the information that the API has on Charizard -- the response is HUGE! For the purposes of this lab, let's just work with a much more manageable excerpt of the response. Copy and paste the following hash into your charizard_tables.rb file:
+For this lab, you're going to be using the [Pokéapi](http://pokeapi.co/) to manipulate some of beloved Charizard's details. Visit http://pokeapi.co/api/v2/pokemon/6/ to get to the information that the API has on Charizard -- the response is HUGE! For the purposes of this lab, let's just work with a much more manageable excerpt of the response. Copy and paste the following hash into your charizard_tables.rb file:
 
 ```ruby
 charizard = {
@@ -75,7 +75,7 @@ Follow the instructions below to make some magic!
 ### Methods
 
 #### 1. Get all of Charizard's stats types
-Create a method `#get_stats_names` that retrieves all of the names of the abilities from the Charizard response. The return value of `#get_stats_names` should be the array ["defense", "attack", "hp"].
+Create a method `#get_stats_names` that retrieves all of the names of the abilities from the Charizard response. The return value of `#get_stats_names` should be the array `["defense", "attack", "hp"]`.
 
 
 #### 2. Get all of Charizard's stats values
