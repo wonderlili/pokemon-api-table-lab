@@ -2,7 +2,7 @@
 
 ## What are APIs?
 
-A web Application Programming Interface (API) is a fancy term for data that lives on the Internet. The data is housed at an endpoint -- represented by a url -- that you can visit in your browser to view the data. Web APIs are often in JSON (JavaScript Object Notation) format, meaning that they look like giant Ruby hashes! This hash-like structure makes it easy for developers like you and me to retrieve and manipulate the API data to fit the needs of the program or application we're writing.
+A web Application Programming Interface (API) is a fancy term for public (or private) data that lives on the Internet for you to access. The data is housed at an endpoint -- represented by a url -- that you can visit in your browser to view the data. Web APIs are often in JSON (JavaScript Object Notation) format, meaning that they look like giant Ruby hashes! This hash-like structure makes it easy for developers like you and me to retrieve and manipulate the API data to fit the needs of the program or application we're writing.
 
 ## Getting the Data
 
@@ -63,7 +63,7 @@ charizard = {
 
 ### Set-up
 
-You're going to create two tables from Charizard's information using the terminal-table gem (https://rubygems.org/gems/terminal-table/versions/1.6.0). The first table should contain the character's statistics. The second table should contain the character's stats. Be sure to run the following command before running charizard_tables.rb:
+You're going to create two tables from Charizard's information using the terminal-table gem (https://rubygems.org/gems/terminal-table/versions/1.6.0). The first table should contain the character's statistics. The second table should contain the character's abilities. Be sure to run the following command before running charizard_tables.rb:
 
 > gem install terminal-table
 
