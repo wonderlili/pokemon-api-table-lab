@@ -108,10 +108,10 @@ See the `"charizard_abilities_table_example.png"` file in this repo for another 
 
 Done with all of that? Check out these two challenges:
 
-#### Challenge 1: Add more abilities to your 'charizard' base hash.
+#### Challenge 1: Add more rows to your tables!
 
-The excerpt only contains two of the 100s of abilities and stats in the Pokemon API response. How would you change the charizard base hash? Would you have to change #get_ability_details to include the new information in your table?
+The excerpt only contains four of the 100s of abilities and stats in the Pokemon API response. How would you change the charizard base hash to include two more abilities and two more stats? Would you have to change `#get_ability_details` to include the new information in your table?
 
-#### Challenge 2: Change the titles of both tables ("Charizard's Stats" and "Charizard's Abilities") to be red and green, respectively.
+#### Challenge 2: Color it!
 
-When you're done with that, the table is your oyster -- color away to your heart's desire!
+Change the titles of both tables ("Charizard's Stats" and "Charizard's Abilities") to be red and green, respectively. When you're done with that, the table is your oyster -- color away to your heart's desire!
