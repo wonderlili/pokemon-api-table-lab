@@ -110,7 +110,7 @@ Done with all of that? Check out these two challenges:
 
 #### Challenge 1: Add more abilities to your 'charizard' base hash.
 
-The excerpt only contains two of 100s of the abilities in the Pokemon API response. How would you change the charizard base hash? Would you have to change #get_ability_details to include the new information in your table?
+The excerpt only contains two of the 100s of abilities and stats in the Pokemon API response. How would you change the charizard base hash? Would you have to change #get_ability_details to include the new information in your table?
 
 #### Challenge 2: Change the titles of both tables ("Charizard's Stats" and "Charizard's Abilities") to be red and green, respectively.
 
