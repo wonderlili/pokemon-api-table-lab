@@ -100,7 +100,7 @@ end
 # get_stats_names(charizard)
 # get_base_stats(charizard)
 create_stats_table(charizard)
-7.times do
+5.times do
   puts " "
 end
 create_abilities_table(charizard)
